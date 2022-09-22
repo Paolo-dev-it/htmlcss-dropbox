@@ -1,55 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container-80 {
-        width: 80%;
-        margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-70 {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .container-flex {
-    display: flex;
+  display: flex;
 }
-
 
 header {
-    background-color: aquamarine;
-    width: 100%;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
+  background-color: aquamarine;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
 }
 
-
- .left, .right {
-    justify-content: space-between;
-    display: flex;
-    background-color: grey;
+.left,
+.right {
+  justify-content: space-between;
+  display: flex;
+  background-color: grey;
 }
 
 .jumbo-tron {
-    width: 100%;
-    background-color: rgb(71, 236, 236);
-    padding: 100px;
+  width: 100%;
+  background-color: rgb(71, 236, 236);
+  padding: 100px;
 }
 
 .jumbo-tron .content {
-    background-color: rgb(65, 147, 120);
-    width: 100%;
+  background-color: rgb(65, 147, 120);
+  width: 100%;
 }
 
 .content .left {
-    background-color: rgb(28, 96, 73);
-    justify-content: space-between;
-    color: white;
-
+  background-color: rgb(28, 96, 73);
+  justify-content: space-between;
+  color: white;
 }
 
 .content .right {
-    background-color: rgb(30, 205, 147);
-    justify-content: space-between;
-        color: white;
+  background-color: rgb(30, 205, 147);
+  justify-content: space-between;
+  color: white;
 }
 
+.plans {
+  background-color: red;
+  padding: 20px;
+}
+
+.business {
+  background-color: orange;
+  width: 100%;
+}
+
+.column-container {
+  background-color: rgb(0, 228, 88);
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.col {
+  width: calc(100% / 3);
+  justify-content: space-between;
+}
+
+.users {
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(226, 102, 102, 0.734);
+  margin: 10px 0px;
+}
+
+.col-content {
+  width: 100%;
+  background-color: rgb(174, 132, 214);
+}
+
+.col-content ul {
+  list-style: none;
+}
+
+.line {
+  border: 2px solid grey;
+  width: 20%;
+}
+
+.team {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+.row-container {
+  background-color: rgb(234, 221, 42);
+}
+
+.team .left {
+  background-color: blueviolet;
+  width: 80%;
+  margin: 10px;
+}
+
+.team .right {
+  background-color: rgb(152, 86, 213);
+  width: 20%;
+  margin: 10px;
+}
+
+.partner {
+  background-color: darkgreen;
+}
+
+.image img {
+  width: 100%;
+  padding: 30px;
+}
+
+.partner p {
+  padding: 30px;
+  color: white;
+  align-items: center;
+}
