@@ -4,3 +4,46 @@
     box-sizing: border-box;
 }
 
+.container-80 {
+        width: 80%;
+        margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+
+header {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+ .left, .right {
+    justify-content: space-between;
+    display: flex;
+    background-color: grey;
+}
+
+.jumbo-tron {
+    width: 100%;
+    background-color: rgb(71, 236, 236);
+    padding: 100px;
+}
+
+.jumbo-tron .content {
+    background-color: rgb(65, 147, 120);
+}
+
+.content .left {
+    background-color: rgb(28, 96, 73);
+}
+
+.content .right {
+    background-color: rgb(28, 96, 73);
+}
+
