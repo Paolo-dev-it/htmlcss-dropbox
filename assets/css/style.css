@@ -135,3 +135,37 @@ header {
   color: white;
   align-items: center;
 }
+
+.operations {
+  background-color: darkorange;
+}
+
+.cards {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+
+.first-row {
+  display: flex;
+  width: 100%;
+}
+
+.second-row {
+  display: flex;
+  width: 100%;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card-1 > img {
+  width: 100%;
+}
