@@ -37,13 +37,19 @@ header {
 
 .jumbo-tron .content {
     background-color: rgb(65, 147, 120);
+    width: 100%;
 }
 
 .content .left {
     background-color: rgb(28, 96, 73);
+    justify-content: space-between;
+    color: white;
+
 }
 
 .content .right {
-    background-color: rgb(28, 96, 73);
+    background-color: rgb(30, 205, 147);
+    justify-content: space-between;
+        color: white;
 }
 
