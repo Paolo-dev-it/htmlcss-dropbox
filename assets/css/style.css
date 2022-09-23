@@ -506,12 +506,12 @@ li .entity {
 
 .cta {
   background-color: #a3b2d2;
-  padding: 150px;
 }
 
 .contenitore {
   justify-content: space-between;
   align-items: center;
+  padding: 150px;
 }
 
 .ctaTitle {
@@ -524,4 +524,21 @@ li .entity {
   background-color: white;
   color: black;
   border: 0;
+}
+
+.question {
+  padding: 150px;
+}
+
+.question h3 {
+  font-size: 1.9rem;
+}
+
+.question .line-2 {
+  border-top: 1px solid gray;
+  margin: 30px 0px;
+}
+
+.contenitoreQuestion {
+  justify-content: space-between;
 }
