@@ -212,10 +212,11 @@ li .fa-solid {
 }
 
 .line {
-  border: 2px solid grey;
+  border-top: 1px solid grey;
   width: 20%;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: grey;
 }
 
 li .entity {
@@ -413,26 +414,114 @@ li .entity {
 }
 
 .final-part {
-  border: 1px solid black;
-  background-color: rgb(0, 255, 34);
-}
-
-/* .companies {
-  height: calc("vw / 3");
-} */
-
-.col-1 {
-  border: 1px solid black;
-  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  /* background-color: rgb(0, 255, 34); */
   width: 100%;
 }
 
-.col-2 {
-  border: 2px solid rgb(223, 17, 17);
+.col-1 {
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+  height: calc(100vw / 3);
+}
+
+.col-6 {
+  /* border: 2px solid rgb(223, 17, 17); */
+  width: 100vw;
 }
 
 .col-1 .square {
   width: 50%;
-  height: 50%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+}
+
+.sponsor {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  top: 40%;
+  filter: invert(100%);
+}
+
+.col-1 .square-0 {
+  background-color: #a2d39b;
+}
+
+.col-1 .square-1 {
+  background-color: #61092b;
+}
+
+.col-1 .square-2 {
+  background-color: #0093ce;
+}
+
+.col-1 .square-3 {
+  background-color: #ff1b1c;
+}
+
+.col-1 .square-4 {
+  background-color: #d5001f;
+}
+
+.col-1 .square-5 {
+  background-color: #a3b2d2;
+}
+
+.col-1 .square-6 {
+  background-color: #0e2381;
+}
+
+.col-1 .square-7 {
+  background-color: #feda43;
+}
+
+.content-middle-column {
+  /* background-color: #0093ce; */
+  width: 100%;
+  height: 100%;
+}
+
+.middle-column {
+  padding: 40px;
+  width: 50%;
+}
+
+.line-1 {
+  border-top: 1px solid gray;
+  margin-left: 40px;
+  width: 20%;
+}
+
+.col-6 .comment {
+  margin: 0px 0px;
+  line-height: 25px;
+}
+
+.comment p {
+  /* background-color: black; */
+  color: black;
+  width: 100%;
+  padding: 40px 40px;
+}
+
+.cta {
+  background-color: #a3b2d2;
+  padding: 150px;
+}
+
+.contenitore {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ctaTitle {
+  font-size: 1.9rem;
+}
+
+.ctaButton button {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 0;
 }
