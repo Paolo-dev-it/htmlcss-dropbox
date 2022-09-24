@@ -70,13 +70,15 @@ header .start {
 .title {
   padding: 40px;
   position: relative;
-  top: 150px;
+  top: 130px;
 }
 h1 {
   width: 100%;
   font-size: 4rem;
   font-weight: 900;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  position: relative;
+  bottom: 50px;
 }
 
 .jumbo-tron .content {
@@ -95,19 +97,19 @@ h1 {
 
 #jumboP {
   line-height: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: black;
 }
 
 #jumboP2 {
   line-height: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: black;
 }
 
 #jumboP3 {
   font-size: 3rem;
-  margin-bottom: 60px;
+  margin-top: 20px;
   color: black;
 }
 
@@ -115,7 +117,6 @@ h1 {
   /* background-color: rgb(30, 205, 147); */
   justify-content: space-between;
   color: white;
-  /* width: 75%; */
   flex-basis: 60%;
 }
 
@@ -132,7 +133,7 @@ h1 {
 
 .plans {
   /* background-color: red; */
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
@@ -143,6 +144,10 @@ h1 {
 
 .business input {
   margin-top: 40px;
+}
+
+.business .yearly {
+  margin-left: 60px;
 }
 
 .column-container {
@@ -235,15 +240,15 @@ li .entity {
   background-color: rgb(234, 221, 42);
 } */
 
-.row-container .title {
+.row-container .rowTitle {
   text-align: center;
   border: 1px solid black;
   padding: 8px;
   width: 100%;
 }
 
-.title .fa-solid {
-  margin-right: 5px;
+.rowTitle .fa-solid {
+  margin-right: 8px;
 }
 
 .team .left-row {
@@ -257,6 +262,7 @@ li .entity {
   /* background-color: rgb(152, 86, 213); */
   width: 20%;
   margin-top: 5px;
+  margin-right: 20px;
   color: white;
 }
 
