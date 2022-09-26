@@ -34,22 +34,29 @@ header {
   z-index: 1;
 }
 
-header .leftHeader,
-.right {
+header .right {
   margin: 10px 10px;
+  color: grey;
+  /* background-color: grey; */
+}
+
+header .left {
+  margin: 15px 10px;
   color: grey;
   /* background-color: grey; */
 }
 
 header .leftHeader {
   margin-left: 30px;
-}
-
-.leftHeader > img {
   align-items: center;
+  width: 100%;
 }
 
-.leftHeader #spanHeader {
+.logoDropbox img {
+  vertical-align: bottom;
+}
+
+.leftHeader span {
   margin-left: 20px;
 }
 
@@ -85,7 +92,6 @@ h1 {
   width: 100%;
   font-size: 4rem;
   font-weight: 900;
-  margin-bottom: 80px;
   position: relative;
   bottom: 50px;
 }
@@ -378,11 +384,10 @@ li .fa-check {
 
 .text-in-touch .partnerButton:hover {
   padding: 15px;
-  color: black;
+  color: grey;
   border: 2px solid black;
   font-size: 1rem;
   margin-top: 30px;
-  background-color: rgb(226, 223, 223);
 }
 
 .operations h2 {
@@ -534,9 +539,9 @@ li .fa-check {
   background-color: #feda43;
 }
 
-.content-middle-column {
-  /* background-color: #0093ce; */
-}
+/* .content-middle-column {
+   background-color: #0093ce; 
+} */
 
 .middle-column {
   padding: 40px;
