@@ -62,6 +62,13 @@ header .start {
   padding: 10px 30px;
 }
 
+header .start:hover {
+  border: 0;
+  background-color: #5a93f6;
+  color: white;
+  padding: 10px 30px;
+}
+
 .jumbo-tron {
   width: 100%;
   background-color: #bdd5e9;
@@ -127,6 +134,13 @@ h1 {
   padding: 10px 30px;
 }
 
+.left-jumbo .jumboButton:hover {
+  border: 0;
+  background-color: #5a93f6;
+  color: white;
+  padding: 10px 30px;
+}
+
 .right-jumbo > img {
   width: 50vw;
 }
@@ -138,9 +152,9 @@ h1 {
   height: 100%;
 }
 
-.business {
-  /* background-color: orange; */
-}
+/* .business {
+  background-color: orange;
+} */
 
 .business input {
   margin-top: 40px;
@@ -218,6 +232,17 @@ li .fa-solid {
   border: 0;
 }
 
+.col-content .freeTest:hover {
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #5a93f6;
+  color: white;
+  width: 100%;
+  border: 0;
+}
+
 .line {
   border-top: 1px solid grey;
   width: 20%;
@@ -282,6 +307,14 @@ li .fa-check {
   margin-top: 10px;
 }
 
+.right-row .officeSale:hover {
+  padding: 15px;
+  width: 100%;
+  background-color: #5a93f6;
+  color: white;
+  margin-top: 10px;
+}
+
 .left-row h3 {
   padding: 0px 30px 0px 30px;
   margin-top: 15px;
@@ -337,6 +370,15 @@ li .fa-check {
   font-size: 1rem;
   margin-top: 30px;
   background-color: white;
+}
+
+.text-in-touch .partnerButton:hover {
+  padding: 15px;
+  color: black;
+  border: 2px solid black;
+  font-size: 1rem;
+  margin-top: 30px;
+  background-color: rgb(226, 223, 223);
 }
 
 .operations h2 {
@@ -433,6 +475,7 @@ li .fa-check {
   /* border: 1px solid black; */
   flex-wrap: wrap;
   height: calc(100vw / 3);
+  width: 100%;
 }
 
 .col-6 {
@@ -442,6 +485,7 @@ li .fa-check {
 
 .col-1 .square {
   width: 50%;
+  height: 50%;
   /* border: 2px solid blue; */
 }
 
@@ -505,6 +549,7 @@ li .fa-check {
 .col-6 .comment {
   margin: 0px 0px;
   line-height: 25px;
+  height: 100%;
 }
 
 .comment p {
@@ -512,6 +557,7 @@ li .fa-check {
   color: black;
   width: 100%;
   padding: 40px 40px;
+  overflow: auto;
 }
 
 .cta {
@@ -532,6 +578,14 @@ li .fa-check {
   padding: 10px;
   width: 100%;
   background-color: white;
+  color: black;
+  border: 0;
+}
+
+.ctaButton button:hover {
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(226, 223, 223);
   color: black;
   border: 0;
 }
