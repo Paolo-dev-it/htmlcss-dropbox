@@ -30,6 +30,8 @@ header {
   display: flex;
   padding: 20px;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 }
 
 header .leftHeader,
@@ -531,8 +533,6 @@ li .fa-check {
 
 .content-middle-column {
   /* background-color: #0093ce; */
-  width: 100%;
-  height: 100%;
 }
 
 .middle-column {
@@ -549,7 +549,6 @@ li .fa-check {
 .col-6 .comment {
   margin: 0px 0px;
   line-height: 25px;
-  height: 100%;
 }
 
 .comment p {
