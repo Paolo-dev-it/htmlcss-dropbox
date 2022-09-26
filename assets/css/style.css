@@ -183,7 +183,7 @@ h1 {
   text-align: center;
   /* background-color: rgba(226, 102, 102, 0.734); */
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   color: black;
 }
 
@@ -194,7 +194,7 @@ h1 {
 .col-content {
   /* background-color: rgb(174, 132, 214); */
   padding: 15px;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   align-items: center;
   font-size: 0.8rem;
   color: black;
@@ -265,7 +265,7 @@ li .fa-check {
   color: white;
   display: flex;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
 }
 
 .row-container {
@@ -275,7 +275,7 @@ li .fa-check {
 
 .row-container .rowTitle {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   padding: 8px;
   width: 100%;
 }
@@ -503,6 +503,7 @@ li .fa-check {
 
 .col-1 .square-0 {
   background-color: #a2d39b;
+  border: 20px solid #cbefc6;
 }
 
 .col-1 .square-1 {
