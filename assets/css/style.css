@@ -596,7 +596,7 @@ li .fa-check {
   padding: 150px;
 }
 
-.question h3 {
+.question h4 {
   font-size: 1.9rem;
 }
 
@@ -607,6 +607,19 @@ li .fa-check {
 
 .contenitoreQuestion {
   justify-content: space-between;
+}
+
+.contenutoQuestion p {
+  display: none;
+  margin-top: 20px;
+}
+
+.question:hover p {
+  display: block;
+}
+
+.question:hover .fa-angle-down {
+  transform: rotate(3.142rad);
 }
 
 footer {
